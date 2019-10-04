@@ -2,8 +2,26 @@
   "name": "@juandc/simple-messages-front-architecture-react-redux",
   "description": "The name is really descriptive :P",
   "version": "0.0.1",
-  "main": "server/index.js",
+  "main": "src/App.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./config/webpack.config.js --mode development"
+  },
   "repository": "git@github.com:juandc/SimpleMessagesFrontArchitectureReactRedux.git",
   "author": "Juan David Castro <me@juandc.co>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "redux": "^4.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "react-hot-loader": "^4.12.14",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
 }
