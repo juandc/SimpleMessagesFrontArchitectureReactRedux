@@ -1,0 +1,9 @@
+{
+  "name": "@juandc/simple-messages-front-architecture-react-redux",
+  "description": "The name is really descriptive :P",
+  "version": "0.0.1",
+  "main": "server/index.js",
+  "repository": "git@github.com:juandc/SimpleMessagesFrontArchitectureReactRedux.git",
+  "author": "Juan David Castro <me@juandc.co>",
+  "license": "MIT"
+}
